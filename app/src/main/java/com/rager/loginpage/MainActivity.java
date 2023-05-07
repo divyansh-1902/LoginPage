@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }else
                     //incorrect
-                    Toast.makeText(MainActivity.this,"LOGIN FAILED",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"LOGIN FAILED!",Toast.LENGTH_SHORT).show();
 
             }
         });
