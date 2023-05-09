@@ -88,17 +88,20 @@
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/gbtn"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="20dp"
             android:src="@drawable/google"/>
         <ImageView
+            android:id="@+id/fbtn"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="20dp"
             android:src="@drawable/facebook"/>
 
         <ImageView
+            android:id="@+id/tbtn"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="20dp"

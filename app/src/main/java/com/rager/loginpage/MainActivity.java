@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
         TextView password =(TextView) findViewById(R.id.password);
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
+        ImageView gbtn = (ImageView) findViewById(R.id.gbtn);
+        ImageView fbtn = (ImageView) findViewById(R.id.fbtn);
+        ImageView tbtn = (ImageView) findViewById(R.id.tbtn);
+
+
 
         //divyansh and divyansh
 
@@ -42,6 +48,25 @@ public class MainActivity extends AppCompatActivity {
                     //incorrect
                     Toast.makeText(MainActivity.this,"LOGIN FAILED!",Toast.LENGTH_SHORT).show();
 
+            }
+        });
+
+        gbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"WILL BE AVAiLABLE SOON!",Toast.LENGTH_SHORT).show();
+            }
+        });
+        fbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"WILL BE AVAiLABLE SOON!",Toast.LENGTH_SHORT).show();
+            }
+        });
+        tbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"WILL BE AVAiLABLE SOON!",Toast.LENGTH_SHORT).show();
             }
         });
     }
