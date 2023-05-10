@@ -20,14 +20,15 @@
             android:layout_centerVertical="true"/>
 
         <TextView
+            android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MY Application"
+            android:layout_centerVertical="true"
             android:layout_margin="16dp"
             android:layout_toEndOf="@id/left_icon"
+            android:text="MY Application"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_centerVertical="true"/>
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/right_icon"
