@@ -43,6 +43,14 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"/>
 
+        <ImageView
+            android:id="@+id/notification_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_notifications_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
 
 
     </RelativeLayout>

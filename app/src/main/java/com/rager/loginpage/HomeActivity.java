@@ -18,20 +18,27 @@ public class HomeActivity extends AppCompatActivity {
             getSupportActionBar().hide();
         }
 
-        ImageView lefticon = findViewById(R.id.user_profile);
-        ImageView righticon = findViewById(R.id.home_icon);
+        ImageView userprofile = findViewById(R.id.user_profile);
+        ImageView homeicon = findViewById(R.id.home_icon);
         TextView title = findViewById(R.id.toolbar_title);
+        ImageView notification = findViewById(R.id.notification_button);
 
-        lefticon.setOnClickListener(new View.OnClickListener() {
+        userprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(HomeActivity.this, "You clicked on left icon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HomeActivity.this, "No Profile Available", Toast.LENGTH_SHORT).show();
             }
         });
-        righticon.setOnClickListener(new View.OnClickListener() {
+        homeicon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(HomeActivity.this, "You clicked on right icon", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HomeActivity.this, "Details Yet Not Available", Toast.LENGTH_SHORT).show();
+            }
+        });
+        notification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(HomeActivity.this, "Under Develpment", Toast.LENGTH_SHORT).show();
             }
         });
     }
